@@ -53,6 +53,7 @@ p {
 
 .contact-us {
   background: url(../backgrounds/c_image.jpg) no-repeat;
+  background-size: cover;
   color: white;
 }
 
@@ -67,6 +68,15 @@ p {
   border-radius: 0;
 }
 
+.form-control:valid {
+  background-color: transparent;
+  color: white;
+}
+
 .form-control::placeholder {
   color: white;
+}
+
+textarea {
+  height: 300px;
 }
