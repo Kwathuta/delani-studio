@@ -10,8 +10,16 @@
   padding: 0;
 }
 
+.cta-scroll {
+  margin: 200px 0;
+}
+
 .content img {
-  margin: 60px 0;
+  margin: 400px 0 60px 0;
+}
+
+h1 {
+  line-height: 70px;
 }
 
 p {
