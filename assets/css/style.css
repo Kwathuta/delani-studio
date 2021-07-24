@@ -1,3 +1,13 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
 .content img {
   margin: 60px 0;
 }
@@ -25,20 +35,20 @@ p {
 }
 
 .about-us {
-  /* height: 50vh; */
   flex-direction: column;
+  padding: 50px 0;
 }
 
 .services {
-  /* height: 50vh; */
   background: url(../backgrounds/s_image.jpg) no-repeat;
+  background-size: 100% 100%;
   color: white;
   flex-direction: column;
+  padding: 50px 0;
 }
 
 .what-we-do {
   padding: 50px;
-  /* height: 40vh; */
 }
 
 .portfolio {
@@ -53,7 +63,7 @@ p {
 
 .contact-us {
   background: url(../backgrounds/c_image.jpg) no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   color: white;
 }
 
