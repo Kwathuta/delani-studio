@@ -17,7 +17,7 @@ Delani Studio specializes in tailor made design and software to suit users needs
 - Launch index.html file
 - All done!
 - Easy Peasy😉
-- Alternatively, go here
+- Alternatively, go [here](https://kwathuta.github.io/delani-studio/)
 
 ## Known Bugs
 
