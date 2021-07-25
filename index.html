@@ -117,18 +117,18 @@
                 <p><h3>CONTACT US</h3></p>
                 <div class="row">
                     <div class="col-sm-12 col-md-4 col-lg-6">
-                    <input type="text" class="form-control" placeholder="Name..." aria-label="First name">
+                    <input id="userName" type="text" class="form-control" placeholder="Name..." aria-label="First name">
                     </div>
                     <div class="col-sm-12 col-md-4 col-lg-6">
-                    <input type="text" class="form-control" placeholder="Email..." aria-label="Last name">
+                    <input id="userMail" type="text" class="form-control" placeholder="Email..." aria-label="Last name">
                     </div>
                 </div>
                 <div class="row">
                     <div class="col">
-                    <textarea class="form-control" placeholder="Your message here..."></textarea>
+                    <textarea id="userMessage" class="form-control" placeholder="Your message here..."></textarea>
                     </div>
                 </div>
-                <button class="btn btn-primary">Submit</button>
+                <button class="btn btn-primary" onclick="collectInput()">Submit</button>
           </div>
        </div>
        <div class="social">
