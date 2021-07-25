@@ -96,6 +96,7 @@ $(`.portfolio8`).hover( () => {
     }
 )
 
+// Form validation and acknowledment
 let collectInput = () => {
     if ($(`#userName`).val() == ``) {
         alert(`Please fill in your name`);
@@ -107,7 +108,6 @@ let collectInput = () => {
     }
      else {
     userName = $(`#userName`).val();
-    console.log(userName);
     alert(userName + ` we have recieved your message. Thank you for reaching out to us`)
     }
 }
